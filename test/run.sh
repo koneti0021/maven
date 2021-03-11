@@ -16,7 +16,7 @@ echo "And compare it to: `cat ../test/expected.txt`"
 
 if diff -w ../test/expected.txt target/actual.txt
     then
-        echo SUCCESS
+        echo SUCCESSSS
         let ret=0
     else
         echo FAIL
